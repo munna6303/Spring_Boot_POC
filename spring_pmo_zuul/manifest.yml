@@ -1,0 +1,7 @@
+applications:
+- name: pmo-zuul-proxy
+  path: target\pmozuul-0.0.1-SNAPSHOT.jar
+  memory: 1024M
+services: 
+- eureka-registry
+SPRING_PROFILES_ACTIVE: cloud

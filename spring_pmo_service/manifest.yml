@@ -1,0 +1,7 @@
+applications:
+- name: pmo-rest-services
+  path: target\pmoserverice-0.0.1-SNAPSHOT.jar
+  memory: 1024M
+services: 
+- eureka-registry
+SPRING_PROFILES_ACTIVE: cloud

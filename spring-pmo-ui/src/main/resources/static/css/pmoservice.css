@@ -1,0 +1,32 @@
+html {
+  height: 100%;
+}
+body
+{
+	color:aqua;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 18px;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.loginPage {
+	color: Black;
+	background-color: White;
+	text-align: left;
+}
+.loginDiv{
+	width: 400px;
+	height:300px;
+	border: 3px  solid #80ccff;
+	margin-top: 130px;
+	margin-left: 150px;
+	margin-right: auto;
+	text-align:center;
+	color: red;
+}
+
+h1{
+	color:#008080;
+}
